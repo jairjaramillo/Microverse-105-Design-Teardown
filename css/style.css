@@ -17,7 +17,7 @@ ul li {
   text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
 
-span h2:hover {
+span figcaption:hover {
   color: #000;
   transition: opacity 0.5s;
   animation: animeMenu 10s linear;
