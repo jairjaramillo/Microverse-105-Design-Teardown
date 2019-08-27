@@ -9,7 +9,7 @@ nav ul {
   font-size: calc(.8em + .6vw);
 }
 
-nav ul li {
+ul li {
   display: inline-block;
   padding: 10px;
   word-spacing: 2px;
@@ -17,9 +17,20 @@ nav ul li {
   text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
 
-nav ul li:hover {
+span h2:hover {
   color: #000;
-  animation: animeMenu 10s linear infinite;
+  transition: opacity 0.5s;
+  animation: animeMenu 10s linear;
+}
+
+/* .logo {
+  background: #fff;
+  float: left;
+}  */
+
+span img {
+  width: 44px;
+  height: 44px;
 }
 
 /* Animation on Menu here */
