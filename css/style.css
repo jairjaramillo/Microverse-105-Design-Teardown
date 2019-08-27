@@ -6,7 +6,7 @@ header {
 }
 nav ul {
   text-align: center;
-  font-size: 25px;
+  font-size: calc(.8em + .6vw);
 }
 
 nav ul li {
@@ -26,9 +26,9 @@ nav ul li:hover {
 /* animeMenu is the name of animations. I can call anithing */
 @keyframes animeMenu {
   0% {
-   transform: rotateZ(10deg);
+   transform: rotateZ(5deg);
   }
   100% {
-   transform: rotateZ(50deg);
+   transform: rotateZ(18deg);
   }
  }
