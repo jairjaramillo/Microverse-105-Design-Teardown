@@ -49,10 +49,42 @@ header nav {
 
 .latest-articles article {
   width: 50%;
-  height: 400px;
+  height: 800px;
   background: rgb(109, 109, 109);
   border: 1px dotted black;
-  line-height: 400px;
+  /* line-height: 400px; */
+}
+
+.latest-articles article:nth-child(3),
+.latest-articles article:nth-child(4) {
+  width: 50%;
+  height: 600px;
+  background: rgb(109, 109, 109);
+  border: 1px dotted black;
+}
+
+.latest-articles-frase {
+  font-family: sans-serif;
+  word-spacing: 2px;
+  padding-top: 380px;
+  padding-left: 50px;
+  padding-right: 70px;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  text-align: left;
+}
+
+.latest-articles-frase-two {
+  font-family: sans-serif;
+  word-spacing: 2px;
+  padding-top: 300px;
+  padding-left: 50px;
+  padding-right: 70px;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  text-align: left;
 }
 
 .latest-posts {
@@ -65,7 +97,7 @@ header nav {
   height: 536px;
   background: #C0C0C0;
   border: 1px dotted black;
-  line-height: 536px;
+  /* line-height: 536px; */
 }
 
 .latest-posts article:nth-child(5),
@@ -78,6 +110,54 @@ header nav {
   height: 100px;
   width: 100%;
   line-height: 100px;
+}
+
+.latest-posts h1 {
+  font-size: 30px;
+  text-align: left;
+  padding-left: 18px;
+  padding-top:15px;
+  text-decoration: underline;
+  font-family: sans-serif;
+}
+
+.latest-posts author {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 380px;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(66, 66, 73);
+}
+
+.latest-posts p {
+  text-align: left;
+  font-size: 20px;
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 55px;
+}
+
+.latest-post-publish {
+  background:rgb(47, 44, 44) ;
+  border-radius: 5px;
+  height: 300px;
+  width: 300px;
+  margin: 140px auto 0 auto;
+}
+
+.latest-post-red {
+  background: rgb(45,47,47);
+  border-radius: 5px;
+  height: 450px;
+  width: 800px;
+  margin: 50px auto 0px auto;
+}
+
+.latest-posts article:last-child {
+  height: 80px;
+  line-height: 40px;
 }
 
 .big-banner {
