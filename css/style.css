@@ -136,6 +136,8 @@ header nav {
   height: 100px;
   width: 100%;
   line-height: 100px;
+  text-align: center;
+  padding: 3.2em 0 5em;
 }
 
 .latest-posts h1,
@@ -178,6 +180,7 @@ header nav {
   line-height: 1027px;
   background: #DCDCDC;
   border: 1px dotted black;
+  text-align: center;
 }
 
 .community-links {
@@ -186,11 +189,32 @@ header nav {
   flex-wrap: wrap;
 }
 
+.community-links article:first-child {
+  display: flex;
+}
+
+.person-week-photo {
+  background: rgb(45, 47, 47);
+  border-radius: 5px;
+  height: 55%;
+  width: 240px;
+  margin-top: 40px;
+  margin-left: 57px;
+}
+
+.person-week {
+  height: 45%;
+  width: 760px;
+  padding-left: 30px;
+  line-height: 30px;
+  padding-top: 100px;
+}
+
 .community-links article {
   width: 50%;
   height: 468px;
   border: 1px dotted black;
-  line-height: 468px;
+  /* line-height: 468px; */
 }
 
 .community-links article:first-child {
@@ -201,6 +225,27 @@ header nav {
   height: 100px;
   width: 100%;
   line-height: 100px;
+}
+
+.community-article {
+  padding-top: 50px;
+}
+.community-photo {
+  background: rgb(45, 47, 47);
+  border-radius: 5px;
+  height: 15%;
+  width: 70px;
+  margin-top: 34px;
+  margin-left: 57px;
+  float: left;
+}
+
+.community-article p {
+  height: 64%;
+  width: 544px;
+  padding-left: 182px;
+  line-height: 30px;
+  padding-top: 12px;
 }
 
 .banner {
