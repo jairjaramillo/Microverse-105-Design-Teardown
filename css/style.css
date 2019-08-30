@@ -95,13 +95,43 @@ li {
   text-align: left;
 }
 
+.latest-posts article,
+.curated-posts article {
+  padding: 10px 30px;
+  width: 33.33%;
+  height: 536px;
+  background: #c0c0c0;
+  border: 1px dotted #777;
+  line-height: initial;
+  text-align: start;
+}
+
+.latest-posts article:nth-child(5),
+.latest-posts article:nth-child(10),
+.curated-posts article:nth-child(5) {
+  width: 66.66%;
+  height: 664px;
+  background: white;
+  border-style: hidden;
+  padding-top: 60px;
+  margin-bottom: 73px;
+}
+
+.community-links article {
+  width: 50%;
+  height: 468px;
+  border: 1px dotted #777;
+  font-size: 1.3em;
+  font-family: 'Noto', sans-serif;
+}
+
 .latest-articles article:nth-child(3),
 .latest-articles article:nth-child(4) {
   width: 50%;
   height: 600px;
   background: rgb(109, 109, 109);
   border: 1px dotted #777;
-  padding-top: 300px
+  padding-top: 300px;
 }
 
 .latest-articles article:nth-child(1),
@@ -123,17 +153,6 @@ li {
   flex-wrap: wrap;
 }
 
-.latest-posts article,
-.curated-posts article {
-  padding: 10px 30px;
-  width: 33.33%;
-  height: 536px;
-  background: #c0c0c0;
-  border: 1px dotted #777;
-  line-height: initial;
-  text-align: start;
-}
-
 .latest-posts article:nth-child(4) {
   background: white;
   border-style: hidden;
@@ -144,17 +163,6 @@ li {
   border-radius: 5px;
   height: 300px;
   margin: 140px auto 0 auto;
-}
-
-.latest-posts article:nth-child(5),
-.latest-posts article:nth-child(10),
-.curated-posts article:nth-child(5) {
-  width: 66.66%;
-  height: 664px;
-  background: white;
-  border-style: hidden;
-  padding-top: 60px;
-  margin-bottom: 73px;
 }
 
 .latest-posts article:last-child,
@@ -189,13 +197,15 @@ li {
   font-weight: 800;
   font-family: 'Dosis', sans-serif;
 }
+
 .curated-posts li {
-  font-family: 'Lora',sans-serif;
+  font-family: 'Lora', sans-serif;
   font-size: 1.3em;
   text-decoration: underline;
   margin-left: 40px;
   word-spacing: .1em;
 }
+
 .latest-posts p {
   font-size: 20px;
   text-align: justify;
@@ -274,14 +284,6 @@ li {
   padding-left: 30px;
   line-height: 30px;
   padding-top: 100px;
-}
-
-.community-links article {
-  width: 50%;
-  height: 468px;
-  border: 1px dotted #777;
-  font-size: 1.3em;
-  font-family: 'Noto', sans-serif;
 }
 
 .community-links article:first-child {
@@ -377,12 +379,11 @@ li {
 
 .curated-posts h1 {
   font-size: 40px;
-  font-family: Mija;
+  font-family: 'Mija', sans-serif;
   text-align: center;
   padding-top: 12px;
   padding-bottom: 15px;
 }
-
 
 footer {
   background: #666;
