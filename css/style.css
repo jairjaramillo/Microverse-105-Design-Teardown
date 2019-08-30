@@ -106,6 +106,14 @@ li {
   text-align: start;
 }
 
+.community-links article {
+  width: 50%;
+  height: 468px;
+  border: 1px dotted #777;
+  font-size: 1.3em;
+  font-family: 'Noto', sans-serif;
+}
+
 .latest-posts article:nth-child(5),
 .latest-posts article:nth-child(10),
 .curated-posts article:nth-child(5) {
@@ -115,14 +123,6 @@ li {
   border-style: hidden;
   padding-top: 60px;
   margin-bottom: 73px;
-}
-
-.community-links article {
-  width: 50%;
-  height: 468px;
-  border: 1px dotted #777;
-  font-size: 1.3em;
-  font-family: 'Noto', sans-serif;
 }
 
 .latest-articles article:nth-child(3),
@@ -267,6 +267,7 @@ li {
 
 .community-links article:first-child {
   display: flex;
+  width: 100%;
 }
 
 .person-week-photo {
@@ -284,10 +285,6 @@ li {
   padding-left: 30px;
   line-height: 30px;
   padding-top: 100px;
-}
-
-.community-links article:first-child {
-  width: 100%;
 }
 
 .community-links article:last-child {
