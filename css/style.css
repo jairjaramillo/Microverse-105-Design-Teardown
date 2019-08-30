@@ -9,9 +9,13 @@ header {
   display: flex;
   align-items: center;
   height: 180px;
-  background: rgb(167, 167, 167);
+  background: #666;
 }
 
+/* #666
+#888
+#777
+#999 */
 header nav {
   display: flex;
   flex-wrap: nowrap;
@@ -25,17 +29,17 @@ header nav {
   height: 100%;
   width: 140px;
   margin: 0 5px;
-  background: rgb(71, 71, 71);
+  background: #888;
 }
 
 .nav-elements:first-child {
   width: 300px;
-  background: rgb(85, 85, 85);
+  background: #777;
 }
 
 .nav-elements:last-child {
   width: 180px;
-  background: rgb(85, 85, 85);
+  background: #999;
 }
 
 /* #endregion */
@@ -140,6 +144,10 @@ header nav {
   padding: 3.2em 0 5em;
 }
 
+.community-links article:last-child {
+  text-align: center;
+}
+
 .latest-posts h1,
 .curated-posts h1 {
   font-size: 30px;
@@ -230,6 +238,7 @@ header nav {
 .community-article {
   padding-top: 50px;
 }
+
 .community-photo {
   background: rgb(45, 47, 47);
   border-radius: 5px;
@@ -249,11 +258,62 @@ header nav {
 }
 
 .banner {
+  display: flex;
   height: 421px;
   background: #c0c0cc;
   border: 1px dotted black;
   line-height: 421px;
 }
+
+.banner1 {
+  background: #666;
+  width: 60%;
+  line-height: 50px;
+  /* margin: 0 auto; */
+  padding-left: 60px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner1 h1 {
+  text-decoration: underline;
+}
+
+.banner1 button {
+  height: 50px;
+  width: 245px;
+  border-radius: 5px;
+  background: #999;
+}
+
+.banner2 {
+  background: blue;
+  width: 40%;
+}
+
+.img-banner2 {
+  background: #888;
+  border-radius: 5px;
+  height: 80%;
+  width: 240px;
+  margin-top: 40px;
+  margin-left: 187px;
+}
+
+.author-guides {
+  padding-top: 20px;
+}
+
+.curated-posts h1 {
+  font-size: 40px;
+  font-family: Mija;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+
 
 footer {
   background: #DCDCDC;
