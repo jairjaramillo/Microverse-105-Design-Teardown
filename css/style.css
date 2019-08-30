@@ -56,6 +56,12 @@ li {
   margin-top: 40px;
   height: 90px;
   width: 30%;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  font-size: 2.3em;
+  text-align: center;
+  color: white;
+  line-height: 60px;
 }
 
 .main-title div {
@@ -84,7 +90,7 @@ li {
   padding-top: 380px;
   padding-left: 50px;
   padding-right: 70px;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 50px;
   color: white;
   text-align: left;
@@ -169,7 +175,8 @@ li {
 .curated-posts h1 {
   font-size: 30px;
   text-decoration: underline;
-  font-family: sans-serif;
+  font-family: 'dosis', sans-serif;
+  font-weight: 800;
 }
 
 .latest-posts author,
@@ -188,6 +195,7 @@ li {
 .latest-posts p {
   font-size: 20px;
   text-align: justify;
+  font-family: 'Lora', serif;
 }
 
 .latest-post-red {
@@ -217,6 +225,8 @@ li {
   background: #444;
   border: 1px dotted black;
   text-align: center;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
 }
 
 .big-banner div:first-child {
@@ -268,6 +278,8 @@ li {
   height: 468px;
   border: 1px dotted black;
   /* line-height: 468px; */
+  font-size: 1.3em;
+  font-family: 'Noto', sans-serif;
 }
 
 .community-links article:first-child {
@@ -307,6 +319,8 @@ li {
   height: 421px;
   border: 1px dotted black;
   line-height: 421px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
 }
 
 .banner1 {
@@ -316,7 +330,7 @@ li {
   /* margin: 0 auto; */
   padding-left: 60px;
   padding-right: 20px;
-  font-size: 15px;
+  font-size: 1.5em;
   font-weight: bold;
   color: white;
 }
