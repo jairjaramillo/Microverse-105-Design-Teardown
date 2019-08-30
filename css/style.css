@@ -174,10 +174,6 @@ li {
   padding: 3.2em 0 5em;
 }
 
-.community-links article:last-child {
-  text-align: center;
-}
-
 .latest-posts h1,
 .curated-posts h1 {
   font-size: 30px;
@@ -291,6 +287,7 @@ li {
   height: 100px;
   width: 100%;
   line-height: 100px;
+  text-align: center;
 }
 
 .community-article {
