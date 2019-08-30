@@ -179,8 +179,7 @@ li {
   font-weight: 800;
 }
 
-.latest-posts author,
-.curated-posts author {
+.author {
   font-size: 14px;
   font-weight: bold;
   color: #424249;
