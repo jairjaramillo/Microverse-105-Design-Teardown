@@ -25,6 +25,10 @@ header nav {
   line-height: 136px;
 }
 
+li {
+  line-height: 2em;
+}
+
 .nav-elements {
   height: 100%;
   width: 140px;
@@ -45,6 +49,25 @@ header nav {
 /* #endregion */
 
 /* #region latest-articles */
+
+.main-title {
+  position: absolute;
+  left: 35%;
+  margin-top: 40px;
+  height: 90px;
+  width: 30%;
+}
+
+.main-title div {
+  margin: 0 auto;
+  width: 100%;
+  height: 55px;
+  background: #333;
+}
+
+.main-title div:last-child {
+  width: 40%;
+}
 
 .latest-articles {
   display: flex;
@@ -135,6 +158,8 @@ header nav {
   margin-bottom: 73px;
 }
 
+
+
 .latest-posts article:last-child,
 .curated-posts article:last-child {
   height: 100px;
@@ -160,6 +185,12 @@ header nav {
   font-size: 14px;
   font-weight: bold;
   color: rgb(66, 66, 73);
+}
+
+.title {
+  font-size: 1.9em;
+  font-weight: bold;
+
 }
 
 .latest-posts p {
