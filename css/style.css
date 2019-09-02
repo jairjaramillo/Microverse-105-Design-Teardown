@@ -202,6 +202,13 @@ li {
   word-spacing: .1em;
 }
 
+footer p {
+  text-transform: uppercase;
+  font-size: .5em;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
 .latest-posts p {
   font-size: 20px;
   text-align: justify;
@@ -388,15 +395,7 @@ footer {
   color: white;
   font-size: 1.7em;
   padding: 40px 50px;
-  /* line-height: 698px; */
   font-family: 'Lora', serif;
-}
-
-footer p {
-  text-transform: uppercase;
-  font-size: .5em;
-  font-weight: bold;
-  letter-spacing: 4px;
 }
 
 footer li::before {
@@ -404,10 +403,9 @@ footer li::before {
   font-size: 25px;
 }
 
-footer li{
+footer li {
   display: inline-block;
   padding-left: 0 50px;
-  /* list-style-type: circle; */
   list-style-position: inside;
 }
 
@@ -416,7 +414,8 @@ footer a {
   text-decoration: none;
 }
 
-.paragraph, .footer-links {
+.paragraph,
+.footer-links {
   width: 300px;
   margin: 0 auto;
   padding-top: 50px;
@@ -434,5 +433,5 @@ footer a {
 }
 
 .footer-links a {
-  text-decoration: underline
+  text-decoration: underline;
 }
