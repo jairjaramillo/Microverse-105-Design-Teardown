@@ -194,6 +194,12 @@ li {
   font-family: 'Dosis', sans-serif;
 }
 
+footer li {
+  display: inline-block;
+  padding-left: 0 50px;
+  list-style-position: inside;
+}
+
 .curated-posts li {
   font-family: 'Lora', sans-serif;
   font-size: 1.3em;
@@ -401,12 +407,6 @@ footer {
 footer li::before {
   content: "● ";
   font-size: 25px;
-}
-
-footer li {
-  display: inline-block;
-  padding-left: 0 50px;
-  list-style-position: inside;
 }
 
 footer a {
